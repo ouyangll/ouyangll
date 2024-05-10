@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-05-08T10:05:01.725Z</updated>
+  <updated>2024-05-10T07:43:20.288Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>安装Nodejs、Git、Npm教程</title>
+    <link href="http://example.com/2024/05/10/test1/"/>
+    <id>http://example.com/2024/05/10/test1/</id>
+    <published>2024-05-10T06:52:57.000Z</published>
+    <updated>2024-05-10T07:43:20.288Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="一准备工作"><a class="markdownIt-Anchor" href="#一准备工作"></a> 一.准备工作</h1><h2 id="1安装git"><a class="markdownIt-Anchor" href="#1安装git"></a> 1.安装git</h2><p>git下载地址：<a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></p><ul><li>git安装完成后命令行执行 <code>git -v</code> 有返回表示安装完成</li></ul><p><img src="https://img-blog.csdnimg.cn/direct/ab39d375a7604335ac12c3a8f34e9d32.png" alt="在这里插入图片描述" /></p><h2 id="2安装node"><a class="markdownIt-Anchor" href="#2安装node"></a> 2.安装node</h2><p>Hexo 基于 NodeJS 运行，因此在开始前，需要安装<code>NodeJS</code> 和<code>npm</code>工具</p><ul><li><p><a href="https://nodejs.org/en/download/">Node.js</a> (Node.js 版本需不低于 10.13，建议使用 <code>Node.js 12.0 及以上版本)</code></p><ul><li>新版的<code>Node都是内置安装了 npm 模块</code></li></ul></li><li><p>git安装完成后命令行执行 <code>node -v    npm -v</code>   有返回表示安装完成<br /><img src="https://img-blog.csdnimg.cn/direct/37a80ba8d7e54ec6a52cc92d8799797e.png" alt="在这里插入图片描述" /></p></li><li><p>如果执行 node -v 报错的话，<code>手动将 Node.js 的安装路径添加到环境变量中</code>。</p></li></ul><h3 id="安装-cnpm"><a class="markdownIt-Anchor" href="#安装-cnpm"></a> 安装 cnpm</h3><p><strong>如果npm很慢，可以配置taobao的镜像：</strong></p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure><p>配置后，使用 <code>cnpm 代替 npm </code>命令即可。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;一准备工作&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#一准备工作&quot;&gt;&lt;/a&gt; 一.准备工作&lt;/h1&gt;
+&lt;h2 id=&quot;1安装git&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#1安装git&quot;&gt;&lt;/a&gt; </summary>
+      
+    
+    
+    
+    <category term="web前端" scheme="http://example.com/categories/web%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="环境安装" scheme="http://example.com/categories/web%E5%89%8D%E7%AB%AF/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/"/>
+    
+    
+    <category term="Nodejs" scheme="http://example.com/tags/Nodejs/"/>
+    
+    <category term="Git" scheme="http://example.com/tags/Git/"/>
+    
+    <category term="Npm" scheme="http://example.com/tags/Npm/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
